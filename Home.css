@@ -1,0 +1,346 @@
+/* Top Bar css*/
+#one {
+    margin-left: 90%;
+}
+@media screen and (max-width: 900px) {
+    #one {
+      margin-left: 0px;
+    }
+  }
+   
+
+/* Navbar css */
+.navbar-brand i {
+    font-size: 30px;
+    color: #ebe2de;
+}
+.navbar-toggler-icon{
+    background-color: black;
+   
+}
+.nav-link {
+    font-size: larger;
+    font-weight: bold;
+    font-family: Trebuchet MS;
+}
+
+.nav-item a {
+    color: black !important;
+
+}
+
+.dropdown-menu {
+    padding: 20px;
+    font-size: medium;
+    font-family: Trebuchet MS;
+}
+
+.nav-link:hover {
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    transform: scale(1.1);
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+dropdown-menu {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Home Page */
+.welcome {
+    position: absolute;
+    top: 400px;
+    left: 47%;
+    letter-spacing: 5px;
+
+}
+
+.attire {
+    position: absolute;
+    top: 450px;
+    left: 44%;
+    letter-spacing: 15px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 70px;
+    font-weight: bolder;
+
+}
+
+.abaya img {
+    
+    height: 300px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.abaya a{
+    text-decoration: none;
+}
+.abaya h4 {
+   
+    margin-left: 14%;
+    color: black;
+    text-shadow: 3px 2px white;
+}
+
+.scarf img {
+    height: 200px;
+    width: 250px;
+}
+
+.scarf a {
+    color: black;
+    text-decoration: none;
+}
+
+.new img {
+    width: 100%;
+    max-height: 300px;
+    max-width: 250px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.view {
+    margin-left: 38em;
+    margin-top: 10px;
+    border: none;
+    background-color: #EDE4C8;
+    width: 90px;
+    height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* SortBy CSS */
+.title {
+    height: 50px;
+    background-color: black;
+    font-size: 40px;
+    text-align: center;
+    font-family: fantasy;
+    color: #ebe2de;
+    letter-spacing: 8px;
+}
+
+.result {
+    font-size: medium;
+    font-family: Arial;
+}
+
+.result #btn {
+    margin-left: 200px;
+}
+
+/* Collection Css */
+.container img {
+    width: 100%;
+    max-width: 260px;
+    max-height: 300px;
+}
+.body {
+    background-color: black;
+    text-align: center;
+    color: #ebe2de;
+    max-width: 260px;
+    max-height: 130px;
+   
+}
+
+.body h5,h6{
+    color: #ebe2de;
+}
+.bag {
+    background-color: black;
+    text-align: center;
+    color: #ebe2de;
+    width: 250px;
+    height: 150px;
+   
+}
+.bag h5,h6{
+    color: #ebe2de;
+}
+.value {
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(50%);
+}
+
+.value:hover {
+    transform: scale(1.1);
+    filter: brightness(100%);
+
+}
+.value img{
+    max-width: 260px;
+    max-height: 300px;
+}
+
+.value button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    opacity: 0;
+    background-color: black;
+    color: #ebe2de;
+}
+
+.value:hover button {
+    opacity: 1;
+   background-color:black;
+}
+
+.value a:link {
+    color: #EDE4C8;
+    text-decoration: none;
+}
+
+
+/* Reviews Css */
+.card-body {
+    text-align: center;
+    background-color: black;
+    color: #EDE4C8;
+}
+
+.card-body i {
+    color: antiquewhite;
+}
+
+/* Foter Css */
+.footer {
+    background-color: #ebe2de;
+    margin-top: 8px;
+
+}
+
+.footer img {
+    width: 80px;
+}
+
+.info {
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list {
+    list-style: none;
+    padding: 5px;
+
+}
+
+.list li,
+h5,h6 {
+    font-size: medium;
+    color: black;
+    padding-top: 9px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.list2 {
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+
+.list2 a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.list2 li,
+h6 {
+    font-size: large;
+    color: black;
+    padding-top: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.list3 {
+    list-style: none;
+    display: flex;
+    margin-left: -70px;
+}
+
+.list3,
+h5 {
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    padding-top: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list3 a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.list3 i {
+    padding-left: 30px;
+    font-size: 30px;
+    color: black;
+}
+
+
+ /* Bottom Bar */
+.bottom {
+    height: 50px;
+    padding-top: 20px;
+    background-color: black;
+    color: #EDE4C8;
+    text-align: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+/* scarf page */
+#scarf img{
+width: 250px;
+height: 300px;
+border: 2px solid black;
+  }
+ 
+/* abaya inner pages */
+@media screen and (max-width: 900px) {
+    carousel-item active  {
+   width: 100%;
+    }
+  }
+
+
+ 

@@ -1,0 +1,149 @@
+#one{
+    margin-left: 90%;
+}
+@media screen and (max-width: 900px) {
+    #one {
+      margin-left: 0px;
+    }
+  }
+
+/* navbar css */
+.navbar-brand i{
+    font-size: 30px;
+    color: #ebe2de;
+}
+.navbar{
+    width: 100%;
+}
+.navbar-toggler-icon{
+    background-color: black;
+}
+.nav-link{
+    font-size: larger;
+    font-weight: bold;
+    font-family: Trebuchet MS;
+}
+.nav-item a{
+    color: black !important;
+    
+}
+.dropdown-menu{
+    padding: 20px;
+    font-size: medium;
+    font-family: Trebuchet MS;
+}
+.nav-link:hover{
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    transform: scale(1.1);
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+dropdown-menu{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+
+  .title{
+    height: 50px; 
+    background-color:black;
+    font-size: 40px;
+    text-align: center;
+    font-family: fantasy;
+    color: #ebe2de; 
+    letter-spacing: 8px;
+  }
+
+
+/* scarf page */
+#scarf img{
+width: 250px;
+height: 300px;
+border: 2px solid black;
+  }
+ 
+/* abaya inner pages */
+@media screen and (max-width: 900px) {
+    carousel-item active  {
+   width: 100%;
+    }
+  }
+
+
+.footer{
+    background-color: #ebe2de;
+    margin-top: 8px;
+}
+.footer img{
+    width: 80px;
+}
+
+.info{
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list{
+    list-style: none;
+    padding: 5px;
+  
+}
+.list li ,h6{
+    font-size: large;
+    padding-top: 9px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.list2{
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;   
+}
+.list2 li,h6{
+    font-size: large;
+    padding-top: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.list3{
+    list-style: none;
+    display: flex;  
+    margin-left: -69px; 
+}
+.list3 ,h6{
+    font-size: large;
+    padding-top: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.list3 i{
+    padding-left: 30px;
+    font-size: 30px;    
+}
+
+.bottom{
+    height: 50px;
+    padding-top: 20px;
+    background-color: black;
+    color: #EDE4C8;
+    text-align: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

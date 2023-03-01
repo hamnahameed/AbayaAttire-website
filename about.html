@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abaya Attire</title>
+
+  <link rel="stylesheet" href="Home.css">
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- js style -->
+  <script src="app.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+
+  <style>
+ 
+    #main {
+      border: 2px solid LightGray;
+      background-color: whitesmoke;
+
+    }
+
+    #main h3,
+    h6 {
+      text-align: center;
+    }
+
+
+    #mainframe {
+      width: 100%;
+      height: 500px;
+      background-color: #ebe2de;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- topbar -->
+  <nav class="navbar fixed-top navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="registration.html" id="one"> <i class="fa fa-user" aria-hidden="true"></i></a>
+      <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight"><a class="navbar-brand" href="#"> <i class="fa fa-shopping-cart"
+            aria-hidden="true"></i></a></button>
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header " style="padding-left: 200px; font-size: x-large;">
+          <h5 id="offcanvasRightLabel"><i class="fa fa-shopping-bag" aria-hidden="true" style="font-size: 30px;"></i>
+          </h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body px-5 ">
+          <p style=" margin-left: 80px;">Your Cart is empty</p>
+          <button
+            style="background-color: black; color:white;width: 250px; margin-top: 350px; margin-left: 50px;">Continue
+            Shopping</button>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <!-- navbar -->
+  <nav class="navbar sticky-top navbar navbar-expand-lg pt-5 px-5" style="background-color:#ebe2de;">
+    <div class="container-fluid">
+      <a class="navbar-brand pt-4" href="Home.html"><img class="logo" src="images/logo (2).png" alt="" width=150px></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-5">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " href="about.html">About</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Abayas
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #ebe2de;">
+              <li><a class="dropdown-item pt-3" href="arabian.html">Arabian Abayas</a></li>
+              <li><a class="dropdown-item pt-3" href="turkish.html">Turkish Abyas</a></li>
+              <li><a class="dropdown-item pt-3" href="party.html">Party Wear Abayas </a></li>
+              <li><a class="dropdown-item pt-3" href="Denim.html">Denim Abayas</a></li>
+              <li><a class="dropdown-item pt-3" href="jilbab.html">Jilbab & Khimar</a></li>
+              <li><a class="dropdown-item pt-3" href="plain.html">Plain Abayas</a></li>
+              <li><a class="dropdown-item pt-3" href="kimono.html">kimono</a></li>
+              <li><a class="dropdown-item pt-3" href="butterfly.html">Butterfly Abaya</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Scarf
+            </a>
+            <ul class="dropdown-menu " aria-labelledby="navbarDropdown" style="background-color: #ebe2de;">
+              <li><a class="dropdown-item  pt-3" href="silk.html">Silk</a></li>
+              <li><a class="dropdown-item  pt-3" href="cotton.html">Cotton</a></li>
+              <li><a class="dropdown-item pt-3" href="net.html">Net </a></li>
+              <li><a class="dropdown-item pt-3" href="chiffon.html">Chiffon</a></li>
+              <li><a class="dropdown-item pt-3" href="organza.html">Organza</a></li>
+              <li><a class="dropdown-item pt-3" href="lawn.html">Lawn</a></li>
+              <li><a class="dropdown-item pt-3" href="bubble.html">Bubble Chiffon</a></li>
+              <li><a class="dropdown-item pt-3" href="georgette.html">Georgette Hijab</a></li>
+            </ul>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="newArrival.html">New Arrivals</a>
+          </li>
+          <form class="d-flex px-4">
+            <input class="form-control me-2" type="search" aria-label="Search" size="30" style="height: 35px;">
+            <button class="btn" type="submit"> <i class="fa fa-search" aria-hidden="true"
+                style="color: black;"></i></button>
+          </form>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </div>
+
+  <div style="height: 50px; background-color:black"> </div>
+
+
+
+
+
+  <!-- About us -->
+  <h1 style="margin-top: 100px; text-align: center; background-color: #ebe2de;">About Us</h1>
+
+  <p style="margin-top: 40px; text-align: center;">Lorem Ipsum is simply dummy text of the printing and typesetting
+    industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+    a galley of type and scrambled it to make a type specimen book, with over 1 lac listed products, 3 million and
+    counting customers worldwide, our mission is to bring the world's best ethnic designs to your doorstep. Based out of
+    fort, Mumbai it brings handpicked designs in ethnic jewellery, apparels, accessories & more.<br>
+    Founded by Shailesh Jain & Anup Nair in 2011, our products make our customers look incredible. With a great fan
+    following in India, US & Europe. Mirraw is extremely focused on ethnic wear and wants to dominate this space in the
+    coming few years.
+    Come, join the revolution!
+  </p>
+
+
+
+  <div id="mainframe">
+    <div>
+      <h3 style="text-align: center; margin-top: 5px;">Our Mission</h3>
+      <div style="width: 100px; margin-left: 47%; height: 3px; background-color:darkgray;"></div>
+      <p style="text-align: center;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+        type and scrambled it to make a type specimen book, with over 1 lac listed products, 3 million and counting
+        customers worldwide, our mission is to bring the world's best ethnic designs to your doorstep.</p>
+    </div>
+
+    <div>
+      <h3 style="text-align: center; margin-top: 5px;">Our Plan</h3>
+      <div style="width: 100px; margin-left: 46%; height: 3px; background-color:darkgray;"></div>
+      <p style="text-align: center;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+        type and scrambled it to make a type specimen book, with over 1 lac listed products, 3 million and counting
+        customers worldwide, our mission is to bring the world's best ethnic designs to your doorstep.</p>
+    </div>
+
+    <div>
+      <h3 style="text-align: center; margin-top: 5px;">Our Vision</h3>
+      <div style="width: 100px; margin-left: 46%; height: 3px; background-color:darkgray;"></div>
+      <p style="text-align: center;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+        type and scrambled it to make a type specimen book, with over 1 lac listed products, 3 million and counting
+        customers worldwide, our mission is to bring the world's best ethnic designs to your doorstep.</p>
+    </div>
+
+  </div>
+
+
+  <!-- services -->
+  <div style="margin-top: 5%;">
+    <h1 style="text-align: center;  background-color: #ebe2de;">Our Services</h1>
+  </div>
+
+  <div class="container pt-5">
+    <div class="row align-items-start">
+      <div class="col  p-4 mx-3" id="main">
+        <div style="text-align: center;"> <i class="fa fa-money px-5" aria-hidden="true" style="font-size: 50px; "></i>
+        </div>
+        <h3>Cash on Delivery</h3>
+        <div style="width: 50%; height: 1px; background-color:#000; margin-left: 25%; "></div>
+        <h6>Pay Cash on Delivery.</h6>
+      </div>
+      <div class="col p-4 mx-3 " id="main">
+        <div style="text-align: center;"> <i class="fa fa-shield px-5" aria-hidden="true" style="font-size: 50px; "></i>
+        </div>
+        <h3>Return Policy</h3>
+        <div style="width: 50%; height: 1px; background-color:#000; margin-left: 25%; "></div>
+        <h6>3 Days Return Warranty.</h6>
+      </div>
+
+      <div class="col p-4" id="main">
+        <div style="text-align: center;"> <i class="fa fa-truck px-5" aria-hidden="true" style="font-size: 50px; "></i>
+        </div>
+        <h3>Free Shipping</h3>
+        <div style="width: 50%; height: 1px; background-color:#000; margin-left: 25%; "></div>
+        <h6>Free Shipping over Rs2000.</h6>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row align-items-start">
+
+        <div class="col p-4 mt-3 mx-3 " id="main">
+          <div style="text-align: center;"> <i class="fa fa-credit-card px-5" aria-hidden="true"
+              style="font-size: 50px;  "></i></div>
+          <h3>Safe Payment</h3>
+          <div style="width: 50%; height: 1px; background-color:#000; margin-left: 25%; "></div>
+          <h6>Your Payment will be save with us.</h6>
+        </div>
+
+
+
+        <div class="col p-4 mt-3 mx-3" id="main">
+          <div style="text-align: center;"><i class="fa fa-bell px-5" aria-hidden="true" style="font-size: 50px; "></i>
+          </div>
+          <h3>Customer Service</h3>
+          <div style="width: 50%; height: 1px; background-color:#000; margin-left: 25%; "></div>
+          <h6>We are here for you.</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- terms & policy -->
+
+  <h3 style="margin-top: 50px; text-align: center; background-color: #ebe2de;">Term & Policy</h3>
+  <p style="text-align: center;">A Privacy Policy is a legal document outlining how your organization collects, uses,
+    and discloses personal information.<br>
+    A properly written Privacy Policy tells customers what data you collect about them when they engage with your
+    business (e.g., through your website) or purchase one of your products/services, and why you're collecting that
+    information. It also lets people know how long their information will be stored, who can access these records and
+    more.
+  </p>
+  <p style="text-align: center;">This is a necessary part of any Privacy Policy, disclosing to your users what types of
+    information your app or website collects. This crucial clause lets your users know right from the start whether you
+    will be collecting data they are comfortable sharing.
+
+    For example, a website could simply collect an email address for their mailing list during registration. This would
+    be very different from an app the collects the user's name, location, email address, and payment information.
+
+    Users have the right to know what kinds of information you collect from them! Below is an example of this clause
+    from Apple.
+  </p>
+
+
+
+
+
+  <!-- FOOTER -->
+  <div style="background-color: #ebe2de;">
+    <div class="container-fluid footer pt-5">
+      <div class="row row-cols-4">
+        <div class="col">
+          <ul class="info">
+            <li style="font-family: Brush Script MT, Brush Script Std, cursive; font-size: 32px;"><img
+                src="images/Abaya Attire.png" alt="" width="100px"> Abaya Attire</li>
+            <br>
+            <li>
+              <p> Abayas, hijabs are all available online from <strong> Abaya Attire</strong>
+                for people from diverse backgrounds. We are committed to giving customers
+                value for their money while ensuring that there are no quality compromises.</p>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="col px-5">
+          <ul class=" list">
+            <h5>Company</h5>
+            <div style="width: 20%; height:2px; padding-left: 50px; background-color: black;"></div>
+            <a href="contact.html">
+              <li>Contact Us </li>
+            </a>
+            <a href="about.html">
+              <li>About Us </li>
+            </a>
+            <li>Shipping & Delivery</li>
+            <li>Payment Methods</li>
+            <li>FAQ’S</li>
+            <li>Reviews </li>
+            <li>Privacy Policy</li>
+            <li>Terms Of Use</li>
+          </ul>
+        </div>
+
+        <div class="col px-5">
+          <ul class="list2">
+            <h5>Categories</h5>
+            <div style="width: 20%; height:2px; padding-left: 50px; background-color: black;"></div>
+            <a href="Home.html">
+              <li>Abayas</li>
+            </a>
+            <a href="Denim.html">
+              <li>Denim Abayas</li>
+            </a>
+            <a href="turkish.html">
+              <li>Turkish Abayas</li>
+            </a>
+            <li>Scarfs</li>
+            <li>cotton</li>
+            <li>signature Hijab</li>
+            <li>New Arrival</li>
+          </ul>
+        </div>
+
+
+        <div class="col px-5">
+          <h5>Stay connected</h5>
+          <div style="width: 20%; height:2px;  background-color: black;"></div>
+          <ul class="list3">
+            <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+            <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+            <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+            <li><i class="fa fa-whatsapp" aria-hidden="true"></i></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+<!-- bOTTOM BAR -->
+
+  <div class="bottom">© Copy Rights 2022 | Abaya Attire </div>
+
+
+
+  <script src="app.js"> </script>
+</body>
+
+</html>
